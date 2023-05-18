@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-05-18T15:13:23.299Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="YD3DIb8hAIHVdAXXNjLk" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-18T15:33:50.696Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="xROOid4m3IDFJHCxcGuH" version="21.2.9" type="github">
   <diagram name="Página-1" id="fcXDd3JpugbJtMnuWOAo">
-    <mxGraphModel dx="183" dy="120" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1134" dy="746" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -12,6 +12,9 @@
         </mxCell>
         <mxCell id="J_pL0vdIwRtXVegt1JQ--10" value="SERVIDOR" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
           <mxGeometry x="266" y="30" width="100" height="862" as="geometry" />
+        </mxCell>
+        <mxCell id="J_pL0vdIwRtXVegt1JQ--58" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="J_pL0vdIwRtXVegt1JQ--10">
+          <mxGeometry x="46" y="670" width="10" height="40" as="geometry" />
         </mxCell>
         <mxCell id="J_pL0vdIwRtXVegt1JQ--11" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" vertex="1" parent="1">
           <mxGeometry x="524" y="30" width="20" height="982" as="geometry" />
@@ -96,11 +99,11 @@
           <mxGeometry x="292" y="506" width="336" height="30" as="geometry" />
         </mxCell>
         <mxCell id="J_pL0vdIwRtXVegt1JQ--41" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="312" y="556" width="10" height="59" as="geometry" />
+          <mxGeometry x="312" y="529" width="10" height="86" as="geometry" />
         </mxCell>
         <mxCell id="J_pL0vdIwRtXVegt1JQ--42" value="Generar reporte" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="1" target="J_pL0vdIwRtXVegt1JQ--41">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="317" y="536" as="sourcePoint" />
+            <mxPoint x="323" y="536" as="sourcePoint" />
             <Array as="points">
               <mxPoint x="347" y="566" />
             </Array>
@@ -108,11 +111,11 @@
         </mxCell>
         <mxCell id="J_pL0vdIwRtXVegt1JQ--45" value="Envía informe" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="316" y="709" as="sourcePoint" />
-            <mxPoint x="528" y="710" as="targetPoint" />
+            <mxPoint x="316" y="623.5" as="sourcePoint" />
+            <mxPoint x="534" y="624.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="J_pL0vdIwRtXVegt1JQ--47" value="Generar Alerta&amp;nbsp;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="J_pL0vdIwRtXVegt1JQ--41" parent="1">
+        <mxCell id="J_pL0vdIwRtXVegt1JQ--47" value="Generar Alerta&amp;nbsp; NDVI" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="J_pL0vdIwRtXVegt1JQ--41" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="322" y="566" as="sourcePoint" />
             <Array as="points">
@@ -121,6 +124,80 @@
             </Array>
             <mxPoint x="326.9999999999998" y="596.0000000000002" as="targetPoint" />
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J_pL0vdIwRtXVegt1JQ--49" value="Activar sistema de fumigación&amp;nbsp;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="J_pL0vdIwRtXVegt1JQ--10" target="J_pL0vdIwRtXVegt1JQ--12">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="350" y="665" as="sourcePoint" />
+            <mxPoint x="430" y="665" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="648" y="658" />
+              <mxPoint x="407" y="658" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J_pL0vdIwRtXVegt1JQ--50" value="alt" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="695" y="598" width="294" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="J_pL0vdIwRtXVegt1JQ--51" value="[Los componente físicos responden]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="755" y="598" width="211" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="J_pL0vdIwRtXVegt1JQ--52" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="786" y="636" width="10" height="153" as="geometry" />
+        </mxCell>
+        <mxCell id="J_pL0vdIwRtXVegt1JQ--53" value="Realizar acciones correctivas" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="J_pL0vdIwRtXVegt1JQ--52" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="798" y="638" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="821" y="668" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J_pL0vdIwRtXVegt1JQ--54" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="1">
+          <mxGeometry x="695" y="705" width="297" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="J_pL0vdIwRtXVegt1JQ--56" value="Informar de la desactivaciones de las medidas correctivas" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" target="J_pL0vdIwRtXVegt1JQ--10">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="697" y="697" as="sourcePoint" />
+            <mxPoint x="777" y="697" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="784" y="697" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J_pL0vdIwRtXVegt1JQ--62" value="Desactivar alerta" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.132" y="3" relative="1" as="geometry">
+            <mxPoint x="322" y="705" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="352" y="735" />
+            </Array>
+            <mxPoint x="322" y="735" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J_pL0vdIwRtXVegt1JQ--63" value="Envía informe" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" target="J_pL0vdIwRtXVegt1JQ--11">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="313" y="742" as="sourcePoint" />
+            <mxPoint x="393" y="742" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J_pL0vdIwRtXVegt1JQ--64" value="[Los componentes físicos NO responden]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="729" y="714" width="238" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="J_pL0vdIwRtXVegt1JQ--65" value="Enviar señal urgente" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="J_pL0vdIwRtXVegt1JQ--12" target="J_pL0vdIwRtXVegt1JQ--10">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="565" y="773" as="sourcePoint" />
+            <mxPoint x="645" y="773" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="578" y="765" />
+              <mxPoint x="788" y="754" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J_pL0vdIwRtXVegt1JQ--66" value="Enviar señal urgente" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" target="J_pL0vdIwRtXVegt1JQ--11">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="316" y="783" as="sourcePoint" />
+            <mxPoint x="396" y="783" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
