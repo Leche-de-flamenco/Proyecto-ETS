@@ -1,11 +1,93 @@
-<mxfile host="app.diagrams.net" modified="2023-05-21T11:55:57.016Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="ZrZPutn3yTK2Eg1IlNvp" version="21.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-21T12:29:54.363Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="QXiJL1Q3hOK4mGYv3FJA" version="21.3.2" type="github">
   <diagram name="Página-1" id="w524WosSK8v9RqrJharP">
-    <mxGraphModel dx="1434" dy="768" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="768" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="FSe3xwzmdPAo_2tJGM9_-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="450" y="230" width="120" height="60" as="geometry" />
+        <mxCell id="tJOB3uimsCtY5IyX1VXm-2" value="Se inicia el programa" style="html=1;verticalAlign=bottom;startArrow=circle;startFill=1;endArrow=open;startSize=6;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;exitX=0.002;exitY=0.234;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="tJOB3uimsCtY5IyX1VXm-4">
+          <mxGeometry x="0.0396" width="80" relative="1" as="geometry">
+            <mxPoint x="147.99999999999991" y="165.98000000000002" as="sourcePoint" />
+            <mxPoint x="296.16" y="165" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="108" y="166" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tJOB3uimsCtY5IyX1VXm-4" value="Inicialización" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="136" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tJOB3uimsCtY5IyX1VXm-5" value="Despegue" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="619" y="136" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tJOB3uimsCtY5IyX1VXm-6" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tJOB3uimsCtY5IyX1VXm-4" target="tJOB3uimsCtY5IyX1VXm-5">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="442" y="232" as="sourcePoint" />
+            <mxPoint x="602" y="232" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tJOB3uimsCtY5IyX1VXm-8" value="Dron preparado para el vuelo" style="text;whiteSpace=wrap;html=1;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="432" y="138" width="184" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="tJOB3uimsCtY5IyX1VXm-10" value="Monitoreo" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="906" y="136" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tJOB3uimsCtY5IyX1VXm-11" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tJOB3uimsCtY5IyX1VXm-5" target="tJOB3uimsCtY5IyX1VXm-10">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="630" y="244" as="sourcePoint" />
+            <mxPoint x="790" y="244" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tJOB3uimsCtY5IyX1VXm-15" value="Altitud alcanzada" style="text;whiteSpace=wrap;html=1;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="759" y="138" width="119" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="tJOB3uimsCtY5IyX1VXm-16" value="Detección de Problemas" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="906" y="328" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tJOB3uimsCtY5IyX1VXm-17" value="Problema detectado" style="text;whiteSpace=wrap;html=1;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="964" y="244" width="135" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="tJOB3uimsCtY5IyX1VXm-19" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="tJOB3uimsCtY5IyX1VXm-10">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="696" y="244" as="sourcePoint" />
+            <mxPoint x="962" y="328" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tJOB3uimsCtY5IyX1VXm-21" value="Retorno a la base" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="585" y="328" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tJOB3uimsCtY5IyX1VXm-22" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tJOB3uimsCtY5IyX1VXm-10" target="tJOB3uimsCtY5IyX1VXm-21">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="851" y="170" as="sourcePoint" />
+            <mxPoint x="1011" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tJOB3uimsCtY5IyX1VXm-23" value="Aterrizaje" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="328" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tJOB3uimsCtY5IyX1VXm-24" value="Llegada a la base" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="476" y="332" width="123" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="tJOB3uimsCtY5IyX1VXm-25" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tJOB3uimsCtY5IyX1VXm-21" target="tJOB3uimsCtY5IyX1VXm-23">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="751" y="581" as="sourcePoint" />
+            <mxPoint x="911" y="581" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tJOB3uimsCtY5IyX1VXm-26" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="tJOB3uimsCtY5IyX1VXm-16" target="tJOB3uimsCtY5IyX1VXm-21">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="832" y="436" as="sourcePoint" />
+            <mxPoint x="707" y="427" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tJOB3uimsCtY5IyX1VXm-28" value="Bateria baja" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-30;" vertex="1" parent="1">
+          <mxGeometry x="709" y="233" width="131" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tJOB3uimsCtY5IyX1VXm-29" value="Problema registrado" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="739" y="332" width="154" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tJOB3uimsCtY5IyX1VXm-30" value="Estados Dron" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="69" width="1026" height="413" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
